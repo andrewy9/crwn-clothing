@@ -64,7 +64,6 @@ class App extends React.Component {
 }
 
 const mapStateToProps = ({ user }) => {
-  console.log(user)
   return {
     currentUser: user.currentUser
   }
